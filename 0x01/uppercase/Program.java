@@ -1,3 +1,11 @@
+class TheCharacter {
+    public static boolean IsUpper(char c) {
+        if (c >= 'A' && c <= 'Z') {
+            return true;
+        }
+        return false;
+    }
+}
 public class Program {
     public static void main(String[] args) {
 
